@@ -1,0 +1,114 @@
+
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    background-color: #3498db;
+    margin: 0;
+}
+.header-logo img{
+    width: 220px;
+}
+.primary-menu{}
+.primary-menu ul{
+    text-align: right;
+    border-bottom: 0;
+}
+.primary-menu ul li{
+    display: inline-block;
+    margin-left: -.5px;
+}
+.primary-menu ul li a {
+    display: block;
+    color: #fff;
+    padding: 0 30px;
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 73px;
+    border-right: 1px solid #ddd;
+}
+.header ul li a:hover{
+    background-color: #2980b9;
+} 
+.banner{
+    background: url(https://png.pngtree.com/thumb_back/fh260/background/20190903/pngtree-colorful-bright-smoke-texture-background-image_312909.jpg) no-repeat center;
+    padding: 200px 0;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner h2 {
+    background: rgba(0, 0, 0, .4);
+    color: #fff;
+    text-align: center;
+    max-width: 350px;
+    margin: auto;
+    padding: 10px 20px;
+    font-size: 34px;
+    border-radius: 7px;
+    margin-bottom: 30px;
+}
+.banner h1 {
+    background: red;
+    color: #fff;
+    max-width: 450px;
+  
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 40px;
+    border-radius: 7px;
+    margin-top: 30px;
+    
+} 
+.about{
+    background: #ecf0f1;
+}
+.service{
+    background-color: #f9f9f9;
+}
+.service span{
+    display: block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    background: #3490db;
+    color: #fff;
+    margin: auto;
+    font-size: 35px;
+    line-height: 60px;
+    border-radius: 20px 0 20px 0;
+    
+}
+.product-item img{
+    max-width: 100%;
+}
+.product-item p{
+    font-size: 17px;
+}
+.product-right{}
+.product-right ul{
+    list-style: none;
+}
+.product-right ul li{
+    border: 1px solid #ddd;
+    background: #fafafa;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 7px;
+    border-radius: 6px;
+}
+.footer{
+    background-color: #2c3e50;
+    columns: #fff;
+
+}
+.social-menu{
+    text-align: right; 
+}
+.social-menu li{
+    display: inline-block;
+}
+.social-menu li a{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 8px;
+}
